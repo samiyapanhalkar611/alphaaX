@@ -86,6 +86,14 @@ body::before {
   opacity: 0.5;
 }
 
+@media (max-width: 767px) {
+  #myVideo {
+    opacity: 0.5;
+    position: fixed;
+    width: 100%;
+  }
+}
+
 a {
   color: #fff;
   font-weight: 600;
@@ -728,6 +736,12 @@ h1 {
 }
 
 @media (max-width: 575px) {
+  
+  .hero .product-icons img {
+    height: 50px;
+    width: 50px;
+  }
+
   .hero .product-icons div {
     width: 70px;
     padding: 10px 0;
